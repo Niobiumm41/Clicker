@@ -1,9 +1,14 @@
 body {
+    margin-top: 15px;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     background: rgb(88, 29, 197);
     font-size: 25px;
     color: rgb(255, 255, 255);  
+}
+
+#chet {
+    margin-top:25px;
 }
 
 #container{
@@ -30,7 +35,7 @@ body {
 p {
     padding: 0px;
     margin: 0px;
-    margin-top: 20px;
+    
 }
 
 img {
@@ -43,6 +48,7 @@ h1 {
     font-size: 60px;
     color: rgb(240, 7, 182);
     text-shadow: 1px 1px 2px black;
+    margin-bottom: 20px;
 }
 
 button {
@@ -61,11 +67,17 @@ button {
     background: linear-gradient(0deg, rgb(106, 24, 247), rgb(47, 108, 179));
     box-shadow: 1px 1px 2px rgb(106, 24, 247), 0 0 1em rgb(255, 255, 255);
     height: 45px;
+    margin-bottom: 15px;
 }
+
 
 .priz button:disabled {
     box-shadow: 1px 1px 2px rgb(106, 24, 247), 0 0 1em rgb(0, 0, 0);
     opacity: 0.5;
+}
+
+.priz p {
+    margin-bottom: 15px;
 }
 
 .shop {
